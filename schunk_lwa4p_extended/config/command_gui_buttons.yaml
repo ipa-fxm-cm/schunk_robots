@@ -20,7 +20,11 @@ group2:
     [home,move,home],
     [folded,move,folded],
     [waveleft,move,waveleft],
-    [waveright,move,waveright]]
+    [waveright,move,waveright],
+    [lin_x,move,test_lin_x],
+    [lin_y,move,test_lin_y],
+    [lin_z,move,test_lin_z],
+    [home_fold,move,home_fold]]
     
 # trajectories
 group3:

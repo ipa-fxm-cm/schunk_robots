@@ -47,7 +47,7 @@
   
   <!-- Cartesian stuff -->
   <node ns="arm_controller" name="cob_twist_controller_node" pkg="cob_twist_controller" type="cob_twist_controller_node" cwd="node" respawn="false" output="screen"/>
-  <node ns="arm_controller" name="frame_tracker" pkg="cob_frame_tracker" type="cob_frame_tracker_node" cwd="node" respawn="false" output="screen"/>
+  <node ns="arm_controller" name="frame_tracker" pkg="cob_frame_tracker" type="cob_frame_tracker_node" cwd="node" respawn="false" output="screen"/> 
   <node ns="arm_controller" name="interactive_target" pkg="cob_frame_tracker" type="interactive_frame_target.py" cwd="node" respawn="false" output="screen"/>
   
   
@@ -61,5 +61,8 @@
 
   <!-- upload script server parameters -->
   <rosparam command="load" ns="/script_server/arm" file="$(find schunk_lwa4p_extended)/config/joint_configurations.yaml"/>
+
+
+
 
 </launch>
